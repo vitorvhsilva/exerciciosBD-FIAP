@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53FBB167-F40A-273D-FBD7-5F38C14E49E3" name="TB_ALUNO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13CE08CD-4AD7-A308-1D38-B37BB4A73335" name="TB_CONTATO">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2024-03-14 00:56:05 UTC</createdTime>
+<createdTime>2024-03-14 01:05:05 UTC</createdTime>
 <ownerDesignName>Escola</ownerDesignName>
 <engineerTo>
 <item key="F917AB87-4573-02EB-7E72-87B9EB64B300" value="true"/>
@@ -15,22 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_aluno" id="916AC7A7-280B-0FEC-AFF5-F901506232F0">
+<Attribute name="email" id="A8CA7289-4511-2613-403C-3B10662FFA74">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2024-03-14 01:00:50 UTC</createdTime>
-<ownerDesignName>Escola</ownerDesignName>
-<engineerTo>
-<item key="F917AB87-4573-02EB-7E72-87B9EB64B300" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nome_aluno" id="54689B7B-307C-2B82-EF51-10FD3949D8FE">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2024-03-14 00:56:13 UTC</createdTime>
+<createdTime>2024-03-14 01:06:23 UTC</createdTime>
 <ownerDesignName>Escola</ownerDesignName>
 <engineerTo>
 <item key="F917AB87-4573-02EB-7E72-87B9EB64B300" value="true"/>
@@ -41,6 +28,19 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="DA6C6D34-2224-5EAA-1F58-6A97DF4CEE49">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-14 01:06:46 UTC</createdTime>
+<ownerDesignName>Escola</ownerDesignName>
+<engineerTo>
+<item key="F917AB87-4573-02EB-7E72-87B9EB64B300" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

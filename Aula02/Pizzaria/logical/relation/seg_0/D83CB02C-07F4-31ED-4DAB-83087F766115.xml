@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Contato do Cliente" directorySegmentName="seg_0" id="D83CB02C-07F4-31ED-4DAB-83087F766115">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-14 01:17:38 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="6B279C0D-0292-5AFE-3D77-D16A52BEA80A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1F29CC55-41BA-5F8A-E452-6CFFD6EC1A4E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8C716BB6-44F5-0309-75E1-B22528DB3904</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

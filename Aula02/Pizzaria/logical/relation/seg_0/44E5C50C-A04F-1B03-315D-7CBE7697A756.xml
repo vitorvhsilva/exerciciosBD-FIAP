@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ingredientes da Pizza" directorySegmentName="seg_0" id="44E5C50C-A04F-1B03-315D-7CBE7697A756">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-14 01:23:53 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="6B279C0D-0292-5AFE-3D77-D16A52BEA80A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>25202E42-E21F-37B4-4247-746C812CFA31</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4113840B-132E-C53E-7136-BB111C6D3F98</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

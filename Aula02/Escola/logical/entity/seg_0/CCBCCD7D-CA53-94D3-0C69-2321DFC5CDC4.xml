@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53FBB167-F40A-273D-FBD7-5F38C14E49E3" name="TB_ALUNO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CCBCCD7D-CA53-94D3-0C69-2321DFC5CDC4" name="TB_CURSO">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2024-03-14 00:56:05 UTC</createdTime>
+<createdTime>2024-03-14 01:02:21 UTC</createdTime>
 <ownerDesignName>Escola</ownerDesignName>
 <engineerTo>
 <item key="F917AB87-4573-02EB-7E72-87B9EB64B300" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_aluno" id="916AC7A7-280B-0FEC-AFF5-F901506232F0">
+<Attribute name="id_curso" id="7E7010BF-239B-D3DC-FBE4-4C3DC5022182">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2024-03-14 01:00:50 UTC</createdTime>
+<createdTime>2024-03-14 01:02:43 UTC</createdTime>
 <ownerDesignName>Escola</ownerDesignName>
 <engineerTo>
 <item key="F917AB87-4573-02EB-7E72-87B9EB64B300" value="true"/>
@@ -28,9 +28,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome_aluno" id="54689B7B-307C-2B82-EF51-10FD3949D8FE">
+<Attribute name="nome_curso" id="E3B85C56-C08F-2B67-42CD-FC8B4A9714AD">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2024-03-14 00:56:13 UTC</createdTime>
+<createdTime>2024-03-14 01:03:12 UTC</createdTime>
 <ownerDesignName>Escola</ownerDesignName>
 <engineerTo>
 <item key="F917AB87-4573-02EB-7E72-87B9EB64B300" value="true"/>

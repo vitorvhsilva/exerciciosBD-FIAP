@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F29CC55-41BA-5F8A-E452-6CFFD6EC1A4E" name="TB_CLIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-14 01:11:55 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="6B279C0D-0292-5AFE-3D77-D16A52BEA80A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="F38BD80E-67AC-4D74-9257-6A79DC92D706">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-14 01:20:33 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="6B279C0D-0292-5AFE-3D77-D16A52BEA80A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_cliente" id="0FBF7429-FA08-6241-3E9A-F5903DE1474B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-14 01:20:47 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="6B279C0D-0292-5AFE-3D77-D16A52BEA80A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_cliente" id="075BA234-5596-1E6E-CB8A-EBAAC1FBE65E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-14 01:20:47 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="6B279C0D-0292-5AFE-3D77-D16A52BEA80A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco_cliente" id="238E468B-BCD9-BCF5-9833-3502736569D5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-14 01:20:48 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="6B279C0D-0292-5AFE-3D77-D16A52BEA80A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

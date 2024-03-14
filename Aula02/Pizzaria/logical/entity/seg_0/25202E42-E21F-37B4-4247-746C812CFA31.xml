@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="25202E42-E21F-37B4-4247-746C812CFA31" name="TB_PIZZA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-14 01:17:55 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="6B279C0D-0292-5AFE-3D77-D16A52BEA80A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pizza" id="3574A231-86F7-C8B7-78BC-F93352534FA6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-14 01:18:44 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="6B279C0D-0292-5AFE-3D77-D16A52BEA80A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_pizza" id="F41F07FC-11C8-9A0C-B643-100B31B755E0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-14 01:18:29 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="6B279C0D-0292-5AFE-3D77-D16A52BEA80A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco_pizza" id="8A8D39CF-115A-A7FF-F427-B45A2CE5D5A8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-14 01:19:57 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="6B279C0D-0292-5AFE-3D77-D16A52BEA80A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

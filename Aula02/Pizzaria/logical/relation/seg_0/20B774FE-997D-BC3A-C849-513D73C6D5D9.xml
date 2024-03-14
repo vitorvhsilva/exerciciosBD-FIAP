@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pedir Pizza" directorySegmentName="seg_0" id="20B774FE-997D-BC3A-C849-513D73C6D5D9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-14 01:23:42 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
+<engineerTo>
+<item key="6B279C0D-0292-5AFE-3D77-D16A52BEA80A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1F29CC55-41BA-5F8A-E452-6CFFD6EC1A4E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>25202E42-E21F-37B4-4247-746C812CFA31</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

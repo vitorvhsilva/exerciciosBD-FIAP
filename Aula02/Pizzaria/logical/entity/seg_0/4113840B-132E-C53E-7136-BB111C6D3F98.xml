@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53FBB167-F40A-273D-FBD7-5F38C14E49E3" name="TB_ALUNO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4113840B-132E-C53E-7136-BB111C6D3F98" name="TI_INGREDIENTE">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2024-03-14 00:56:05 UTC</createdTime>
-<ownerDesignName>Escola</ownerDesignName>
+<createdTime>2024-03-14 01:22:37 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
 <engineerTo>
-<item key="F917AB87-4573-02EB-7E72-87B9EB64B300" value="true"/>
+<item key="6B279C0D-0292-5AFE-3D77-D16A52BEA80A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_aluno" id="916AC7A7-280B-0FEC-AFF5-F901506232F0">
+<Attribute name="id_ingrediente" id="DD7BAF2C-A025-1A98-A1F5-420EE7A59A27">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2024-03-14 01:00:50 UTC</createdTime>
-<ownerDesignName>Escola</ownerDesignName>
+<createdTime>2024-03-14 01:22:47 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
 <engineerTo>
-<item key="F917AB87-4573-02EB-7E72-87B9EB64B300" value="true"/>
+<item key="6B279C0D-0292-5AFE-3D77-D16A52BEA80A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -28,19 +28,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome_aluno" id="54689B7B-307C-2B82-EF51-10FD3949D8FE">
+<Attribute name="nome_ingrediente" id="3839E7DE-0D41-8141-4962-712ABC22B891">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2024-03-14 00:56:13 UTC</createdTime>
-<ownerDesignName>Escola</ownerDesignName>
+<createdTime>2024-03-14 01:22:58 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
 <engineerTo>
-<item key="F917AB87-4573-02EB-7E72-87B9EB64B300" value="true"/>
+<item key="6B279C0D-0292-5AFE-3D77-D16A52BEA80A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>
