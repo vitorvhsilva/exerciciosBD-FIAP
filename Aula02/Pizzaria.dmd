@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Pizzaria" id="A48B01D9-8497-BEB8-5C44-C27518931750" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-14 01:08:49 UTC</createdTime>
+<ownerDesignName>Pizzaria</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A48B01D9-8497-BEB8-5C44-C27518931750</designId>
+</OSDM_Design>

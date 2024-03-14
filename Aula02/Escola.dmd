@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Escola" id="B45F8D67-C951-E3D9-2E74-E6DA68A878BD" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-14 00:53:49 UTC</createdTime>
+<ownerDesignName>Escola</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B45F8D67-C951-E3D9-2E74-E6DA68A878BD</designId>
+</OSDM_Design>
