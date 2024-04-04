@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0726168-C746-C1F1-E07A-C4982B560C2E" name="TB_SPO_CONTATO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>D7682059-00EE-203B-03E4-E5C77D95788A</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="739DB1AB-C97A-A40B-B393-252865135448">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>8EAFDDCC-E8C8-7823-4F31-7624E9218B6C</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAA140AB-8553-EE0A-C5DD-00254EA57E40" referredColumn="BE3686C6-2D96-1BE6-37EF-215FECC4A2A1"/>
+</associations>
+</Column>
+<Column name="email_cliente" id="DD662F30-C968-FEF7-F408-C272DBE71FCA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>F3B41C5E-61D8-8484-71CE-AFB16DC04CD1</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone_cliente" id="920C14AE-EFF5-5FA3-C660-841534EC55D4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>4C1239E6-9C22-1241-AABB-264E58527CA8</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D55FDB75-EE20-6A33-1FC1-B3AEE5D30C0C" name="tb_spo_contato_id_cliente_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>5644D738-EF24-EE43-2524-18635B9EB4D9</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="739DB1AB-C97A-A40B-B393-252865135448"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

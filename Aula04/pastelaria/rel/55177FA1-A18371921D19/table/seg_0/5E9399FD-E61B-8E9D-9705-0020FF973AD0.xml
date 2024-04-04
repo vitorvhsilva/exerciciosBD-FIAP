@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E9399FD-E61B-8E9D-9705-0020FF973AD0" name="TB_SPO_SALGADOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>DB70DEF2-E8CF-14A3-555A-6602A7A3A3FC</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_salgados" id="648247B8-CA49-61F4-DE66-99065BE8C547">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>835E102D-DD3E-D1A8-1E04-416D43340D18</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_salgados" id="2F2E00E4-6D2D-3974-4C9A-D984375A4E6A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>346307DC-1E32-D274-0CDE-58ECB1E583BD</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco_salgados" id="5C7DC2E6-91E1-52D7-4582-856821382440">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>B3FFE282-DBBF-50A3-3095-B29565AC00CE</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9697B779-C877-0BD4-8028-CC9AD2100A3F" name="tb_spo_salgados_id_cliente_pk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>D13029E2-8315-DF3E-F83E-C1EF2D5F7541</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="648247B8-CA49-61F4-DE66-99065BE8C547"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12B01D0D-7493-CB8E-83AE-725EE88AC029" name="TB_SPO_PEDIDO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>0C7EA16A-D8B5-1338-E941-474502DFA2DF</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="A019744D-A37F-DF82-BD25-3BD519BFF273">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>676D579B-E4C8-F471-723E-B877E9CE5B38</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08D941F7-3EBA-4F84-4459-157C9554B9ED" referredColumn="BE3686C6-2D96-1BE6-37EF-215FECC4A2A1"/>
+</associations>
+</Column>
+<Column name="id_salgados" id="744A6107-C84E-6425-3308-185E094D01D8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>2265444B-C3E4-C2C0-A545-ACDB996BDC6B</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="612E4C8A-49E2-E8E5-A128-0E79127B40AC" referredColumn="648247B8-CA49-61F4-DE66-99065BE8C547"/>
+</associations>
+</Column>
+<Column name="quantidade_pedido" id="E77BA6C6-8A7D-BCBF-A9B6-7A7708B86270">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>70376F93-5D66-0B09-1A5D-8F9B2292EF1A</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_pedido" id="63CB96E3-DF0F-9FBD-4FBA-3BDEB74EB514">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>DBB557C5-F4A9-CC46-B300-2F779DE324AA</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_total_pedido" id="570BF024-57B8-2FC5-BD9F-F318F03F399B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>AC45448B-3284-7115-37EA-3E15A5656121</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17F826FD-F4DE-B779-4D70-30552B42E763" name="tb_spo_pedido_id_cliente_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>F2FBA98F-AAB9-15FF-C41E-3CD89FA0EE38</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A019744D-A37F-DF82-BD25-3BD519BFF273"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="216567EB-B3FA-1FD6-FC95-EAE262DE4741" name="tb_spo_pedido_id_salgados_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>DC2363E8-B15F-0B24-4612-136CB5CCF307</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="744A6107-C84E-6425-3308-185E094D01D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

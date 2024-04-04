@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A18E2069-2672-65C1-DD76-FB1CF9AA90A8" name="TB_SPO_SALGADO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:15:29 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_salgados" id="805628EB-290D-0D99-A4A1-28116EDD12D2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:17:14 UTC</createdTime>
+<generatorID>A6AAE96C-D755-C4CD-85FF-0FE0520282A2</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<referedAttribute>835E102D-DD3E-D1A8-1E04-416D43340D18</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ingrediente" id="3D0B3BD0-DAB7-31DF-B1CC-7960BF67BE4D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:17:22 UTC</createdTime>
+<generatorID>50B411AD-7C9A-48B7-9633-2159324139AC</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<referedAttribute>DE5F86B3-6D93-5FC7-DD17-28FA275D09D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_salgado" id="94CA7000-8FF9-DE3E-450C-507E0B3BF38D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:28:49 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco_salgado" id="B1BF411B-0D59-DB9D-4256-0A0C7363D1F7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:28:35 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24A411B9-3FF1-6052-1DE0-DD825E54870B" name="TB_SPO_CLIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 00:58:34 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="D3A8999E-CB39-A198-5279-401633F49D1A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 00:58:56 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_cliente" id="35F73B45-9185-9FC0-1C5C-399CC1007CCD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 00:59:09 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco_cliente" id="C4E5F060-9814-BA63-FDCF-E9C004844AD0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 00:59:21 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D49906A4-A713-1B8E-69AC-75A33D9398A5" name="TB_CLIENTE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 00:59:08 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3A8999E-CB39-A198-5279-401633F49D1A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

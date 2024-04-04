@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB70DEF2-E8CF-14A3-555A-6602A7A3A3FC" name="TB_SPO_SALGADOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:09:04 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_salgados" id="835E102D-DD3E-D1A8-1E04-416D43340D18">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:10:50 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_salgados" id="346307DC-1E32-D274-0CDE-58ECB1E583BD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:11:02 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco_salgados" id="B3FFE282-DBBF-50A3-3095-B29565AC00CE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:11:19 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D13029E2-8315-DF3E-F83E-C1EF2D5F7541" name="TB_SPO_SALGADO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:10:56 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>835E102D-DD3E-D1A8-1E04-416D43340D18</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

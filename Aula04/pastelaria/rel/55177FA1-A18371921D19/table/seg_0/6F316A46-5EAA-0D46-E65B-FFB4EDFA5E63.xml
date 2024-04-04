@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F316A46-5EAA-0D46-E65B-FFB4EDFA5E63" name="TB_SPO_INGREDIENTES">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>2DE85C6E-D51A-8F9A-9242-AAD10C39962F</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ingrediente" id="8F58DB4B-9166-F5B3-CE5A-1F118EFFEBC9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>DE5F86B3-6D93-5FC7-DD17-28FA275D09D5</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_ingrediente" id="CF37C785-FD65-F2D2-5F3D-42231F86B6F1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>FB7443B5-93C6-0286-922D-7A99E07B3E2B</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F52686E-39BF-CECE-F32F-5A899FF1CA74" name="tb_spo_ingredientes_id_ingrediente_pk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>DD2C8D0E-735F-2BB5-1598-9FB4C454829A</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F58DB4B-9166-F5B3-CE5A-1F118EFFEBC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

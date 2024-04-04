@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2DE85C6E-D51A-8F9A-9242-AAD10C39962F" name="TB_SPO_INGREDIENTES">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:13:26 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ingrediente" id="DE5F86B3-6D93-5FC7-DD17-28FA275D09D5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:15:01 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_ingrediente" id="FB7443B5-93C6-0286-922D-7A99E07B3E2B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:15:01 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD2C8D0E-735F-2BB5-1598-9FB4C454829A" name="TB_SPO_INGREDIENTES PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:15:54 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<engineerTo>
+<item key="55177FA1-033A-0C6D-3150-A18371921D19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DE5F86B3-6D93-5FC7-DD17-28FA275D09D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

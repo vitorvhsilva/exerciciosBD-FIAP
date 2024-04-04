@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C5198346-81B9-5EE3-B633-BCB64B04EA9D" mainViewID="4A427DCE-BFDC-793F-5AC2-B0FE08229D93">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 00:58:23 UTC</createdTime>
+<ownerDesignName>pastelaria</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

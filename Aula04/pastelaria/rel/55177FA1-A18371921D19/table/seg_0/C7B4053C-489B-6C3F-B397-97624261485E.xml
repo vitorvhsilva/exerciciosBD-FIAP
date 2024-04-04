@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7B4053C-489B-6C3F-B397-97624261485E" name="TB_SPO_SALGADO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>A18E2069-2672-65C1-DD76-FB1CF9AA90A8</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_salgados" id="48F716FF-5BBD-5A49-0B00-4AF40DF73C13">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>805628EB-290D-0D99-A4A1-28116EDD12D2</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F74D55C5-8234-1B4E-FFD8-B53829A8E090" referredColumn="648247B8-CA49-61F4-DE66-99065BE8C547"/>
+</associations>
+</Column>
+<Column name="id_ingrediente" id="B7520D77-9F9F-2BA0-DB98-DCC256C81AEE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>3D0B3BD0-DAB7-31DF-B1CC-7960BF67BE4D</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDC647DE-5CD4-05C3-BBF0-9C3D5C2E978C" referredColumn="8F58DB4B-9166-F5B3-CE5A-1F118EFFEBC9"/>
+</associations>
+</Column>
+<Column name="nome_salgado" id="5A5FF3CB-9B8A-0953-C34F-C111CB1E0A9F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:29:14 UTC</createdTime>
+<generatorID>94CA7000-8FF9-DE3E-450C-507E0B3BF38D</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco_salgado" id="A8ED954E-0880-51CE-9851-1EC54FBD77A9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:29:14 UTC</createdTime>
+<generatorID>B1BF411B-0D59-DB9D-4256-0A0C7363D1F7</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DF63923-CE86-78AA-C75D-BD8695043B09" name="tb_spo_salgado_id_salgados_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>50B411AD-7C9A-48B7-9633-2159324139AC</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7520D77-9F9F-2BA0-DB98-DCC256C81AEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F859B32-4F01-D614-7D10-81E0BA4B88F4" name="tb_spo_salgado_id_ingredientes_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:24:14 UTC</createdTime>
+<generatorID>A6AAE96C-D755-C4CD-85FF-0FE0520282A2</generatorID>
+<ownerDesignName>pastelaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48F716FF-5BBD-5A49-0B00-4AF40DF73C13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
